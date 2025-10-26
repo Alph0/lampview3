@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open miketrike.html",
-            "file": "lampview.html"
+            "name": "openmainindex",
+            "file": "index.html"
         }
     ]
 }
