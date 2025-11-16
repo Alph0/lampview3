@@ -17,7 +17,40 @@ img {
 <h3>A halloween themed escape room.</h3>
 <h2>Goal:</h2>
 <h3>An escape room designed to be beat in ~20 minutes by visitors of Engineering Tech open house at Monty Tech.</h3>
-<h2>Final Design:</h2>
+<h2>Elements:</h2>
+<h3>- A shelf where the player needs to place books with letters on the spines into empty spots according to their letters to spell a word.</h3>
+<h3>- Invisible ink on the wall that the player can see with an ultraviolet flashlight found in the room.</h3>
+<h3>- A resistor which the player can derive a code from by using a resistor color code poster.</h3>
+<h3>- Medicine that is labeled "screaming medicine" with a name on it hinting towards the player that they need to yell the name to get a code.</h3>
+<h3>- PLC controlled module with 3 buttons on it where each button corresponds to a number in a code the player has to find.</h3>
+<h2>Final Room:</h2>
+<h3>Here is John "Gravy" Gravel going through a full runthrough of the room.</h3>
+<h2>Gravy's Daring Escape: <a href="https://www.youtube.com/watch?v=mVs-upDJpzI">YouTube</a></h2>
+</video>
+<h3>This project was designed from a flowchart we designed first and foremost, and then the stages were distributed among Lampview "employees".</h3>
+<img src="halloweenroom_flow.png" alt="halloweenescroom_flow" style="width:1000px">
+<h3>My [Jonathan Lefferts'] part in the project was the bookshelf and the electronic doorknob cover.</h3>
+<h2>Bookshelf</h2>
+<h3>Inside each of the books there is some tape on the page side, one of the tape pieces have a piece of metal inside.</h3>
+<img src="halloweenroom_bok.png" alt="halloweenescroom_bok" style="width:500px">
+<h3>Each book corresponded to a letter, and each letter had a different spot where the metal would be.</h3>
+<h3>This allows me to place inductive sensors on the back of the shelf that align with their specific book.</h3>
+<img src="halloweenroom_shelf.png" alt="halloweenroom_shelf" style="width:500px">
+<h3>Each of these sensors communicate with a PLC, which governs a motor drive with a key attached to a chain.</h3>
+<h3>Once all of the inductive sensors are activated, the motor drive spins until a contact is pressed with a physical piece on the chain.</h3>
+<h3>All of this allows for the player to spell the word "ATOM" and then get their key automatically.</h3>
+<h2>Door Cover</h2>
+<h3>A problem we ecountered was making sure people have a concrete ending to the puzzle, like they would get a key and escape for example, without damaging our door or locking people inside a room.</h3>
+<h3>Other escape rooms have this problem too, since they just can't lock people in a room, what if there is a fire?</h3>
+<h3>So what they do is they just make a light turn green and then you can leave... boring.</h3>
+<h3>My idea was to make a lightweight door cover which sticks onto the door with magnets so we don't have to damage our door, and then incorporate it into the security system box.</h3>
+<img src="halloweenroom_schematic.png" alt="halloweenroom_schematic" style="width:500px">
+<h3>If a person wants to get out in case of a fire or other danger, I used a small relatively weak motor so the player can just push it aside and open the door, but also it gives a satisfying ending to the room.</h3>
+<h2>Results</h2>
+<h3>Shockingly, everything worked come open house!</h3>
+<h3>But,</h3>
+<h3>it was a lot harder than we anticipated, people finished in a far longer time than we thought. We only had time for like, 2 groups.</h3>
+<h3>We'd rather have it be harder than easier to be honest. And it seemed like a good time for the groups that participated as well!</h3>
 <!-- ignore -->
 <h1></h1>
 <h2><a href="../index.html">Back</a></h2>
